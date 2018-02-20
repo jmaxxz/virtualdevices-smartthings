@@ -16,6 +16,7 @@
 
 metadata {
 	definition (name: "Guest Presence", namespace: "jmaxxz", author: "Jmaxxz", ocfDeviceType: "x.com.st.d.mobile.presence") {
+    	capability "Actuator"
 		capability "Presence Sensor"
 		capability "Sensor"
         capability "Switch"
